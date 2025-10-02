@@ -58,3 +58,14 @@ git remote add origin https://github.com/Bharathesh004/Git-L1.git
 ## to push 
 git push -u origin main
 
+# to create a new branch in git repo
+git branch branch-name
+
+# to switch to the branch 
+git checkout branch-name
+
+# To create a branch and switch to that in one go
+git checkout -b branch-name
+
+# To create a branch with source branch 
+git branch new-branch-name source-branch-name
