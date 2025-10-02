@@ -69,3 +69,12 @@ git checkout -b branch-name
 
 # To create a branch with source branch 
 git branch new-branch-name source-branch-name
+
+# To push all the changes from local branch to github branch
+git push --set-upstream origin branch-name
+
+# Alternate to push all the changes from local-branch to github branch
+git push -u origin branch-name
+
+# To merge all the changes of sub branches of your branch 
+git pull
