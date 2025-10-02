@@ -1,4 +1,4 @@
-#Hello , Git
+# Git Basic Commands to Know
 
 ## to change the user name 
 git config user.name "Bharathesh004"
