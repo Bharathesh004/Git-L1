@@ -43,6 +43,7 @@ git checkout main
 
 ## to change global author name and email
 git config --global author.name "Bharathesh004"
+
 git config --global author.email "bharathkudupu6360@gmail.com"
 
 ## to remove local repo 
@@ -80,8 +81,10 @@ git pull
 
 # To merge two branches 
 git checkout branch-to-merge
+
 git merge branch-to-merge-with
 
 # Alternate to merge 
 git checkout branch-to-merge
+
 git pull origin branch-to-merge-with
